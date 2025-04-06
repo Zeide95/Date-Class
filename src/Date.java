@@ -37,7 +37,7 @@ public class Date implements Comparable<Date> {
 
     public String getDayOfWeek() {
         LocalDate date = LocalDate.of(year, month, day);
-        return date.getDayOfWeek().toString(); // Например, "MONDAY"
+        return date.getDayOfWeek().toString();
     }
 
     public Object calculateDifference(Date otherDate) {
